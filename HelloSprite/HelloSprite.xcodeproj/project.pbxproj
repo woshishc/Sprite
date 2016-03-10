@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D8F30461C244F5B0003CA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8F30451C244F5B0003CA73 /* main.m */; };
+		8D8F30491C244F5B0003CA73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8F30481C244F5B0003CA73 /* AppDelegate.m */; };
+		8D8F30541C244F5B0003CA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8F30521C244F5B0003CA73 /* Main.storyboard */; };
+		8D8F30561C244F5B0003CA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8F30551C244F5B0003CA73 /* Assets.xcassets */; };
+		8D8F30591C244F5B0003CA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8F30571C244F5B0003CA73 /* LaunchScreen.storyboard */; };
+		8D8F30641C2452090003CA73 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8F30631C2452090003CA73 /* MainViewController.m */; };
+		8D8F30661C2452CA0003CA73 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8F30651C2452CA0003CA73 /* SpriteKit.framework */; };
+		8D8F30691C2453450003CA73 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8F30681C2453450003CA73 /* HelloScene.m */; };
+		8DECC6871C25146E00A0C58C /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DECC6861C25146E00A0C58C /* SpaceshipScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D8F30411C244F5B0003CA73 /* HelloSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8F30451C244F5B0003CA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D8F30471C244F5B0003CA73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D8F30481C244F5B0003CA73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D8F30531C244F5B0003CA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D8F30551C244F5B0003CA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D8F30581C244F5B0003CA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D8F305A1C244F5B0003CA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8F30621C2452090003CA73 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8D8F30631C2452090003CA73 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8D8F30651C2452CA0003CA73 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8D8F30671C2453450003CA73 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		8D8F30681C2453450003CA73 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		8DECC6851C25146E00A0C58C /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceshipScene.h; sourceTree = "<group>"; };
+		8DECC6861C25146E00A0C58C /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceshipScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D8F303E1C244F5B0003CA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8F30661C2452CA0003CA73 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D8F30381C244F5B0003CA73 = {
+			isa = PBXGroup;
+			children = (
+				8D8F30431C244F5B0003CA73 /* HelloSprite */,
+				8D8F30421C244F5B0003CA73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D8F30421C244F5B0003CA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D8F30411C244F5B0003CA73 /* HelloSprite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8F30431C244F5B0003CA73 /* HelloSprite */ = {
+			isa = PBXGroup;
+			children = (
+				8D8F30471C244F5B0003CA73 /* AppDelegate.h */,
+				8D8F30481C244F5B0003CA73 /* AppDelegate.m */,
+				8D8F30621C2452090003CA73 /* MainViewController.h */,
+				8D8F30631C2452090003CA73 /* MainViewController.m */,
+				8D8F30671C2453450003CA73 /* HelloScene.h */,
+				8D8F30681C2453450003CA73 /* HelloScene.m */,
+				8DECC6851C25146E00A0C58C /* SpaceshipScene.h */,
+				8DECC6861C25146E00A0C58C /* SpaceshipScene.m */,
+				8D8F30441C244F5B0003CA73 /* Supporting Files */,
+			);
+			path = HelloSprite;
+			sourceTree = "<group>";
+		};
+		8D8F30441C244F5B0003CA73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D8F30521C244F5B0003CA73 /* Main.storyboard */,
+				8D8F30551C244F5B0003CA73 /* Assets.xcassets */,
+				8D8F30571C244F5B0003CA73 /* LaunchScreen.storyboard */,
+				8D8F305A1C244F5B0003CA73 /* Info.plist */,
+				8D8F30651C2452CA0003CA73 /* SpriteKit.framework */,
+				8D8F30451C244F5B0003CA73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D8F30401C244F5B0003CA73 /* HelloSprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D8F305D1C244F5B0003CA73 /* Build configuration list for PBXNativeTarget "HelloSprite" */;
+			buildPhases = (
+				8D8F303D1C244F5B0003CA73 /* Sources */,
+				8D8F303E1C244F5B0003CA73 /* Frameworks */,
+				8D8F303F1C244F5B0003CA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSprite;
+			productName = HelloSprite;
+			productReference = 8D8F30411C244F5B0003CA73 /* HelloSprite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D8F30391C244F5B0003CA73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kongjianjia;
+				TargetAttributes = {
+					8D8F30401C244F5B0003CA73 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D8F303C1C244F5B0003CA73 /* Build configuration list for PBXProject "HelloSprite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D8F30381C244F5B0003CA73;
+			productRefGroup = 8D8F30421C244F5B0003CA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D8F30401C244F5B0003CA73 /* HelloSprite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D8F303F1C244F5B0003CA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8F30591C244F5B0003CA73 /* LaunchScreen.storyboard in Resources */,
+				8D8F30561C244F5B0003CA73 /* Assets.xcassets in Resources */,
+				8D8F30541C244F5B0003CA73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D8F303D1C244F5B0003CA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D8F30491C244F5B0003CA73 /* AppDelegate.m in Sources */,
+				8D8F30691C2453450003CA73 /* HelloScene.m in Sources */,
+				8DECC6871C25146E00A0C58C /* SpaceshipScene.m in Sources */,
+				8D8F30641C2452090003CA73 /* MainViewController.m in Sources */,
+				8D8F30461C244F5B0003CA73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D8F30521C244F5B0003CA73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8F30531C244F5B0003CA73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D8F30571C244F5B0003CA73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D8F30581C244F5B0003CA73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D8F305B1C244F5B0003CA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D8F305C1C244F5B0003CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D8F305E1C244F5B0003CA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloSprite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.HelloSprite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D8F305F1C244F5B0003CA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloSprite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kongjianjia.HelloSprite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D8F303C1C244F5B0003CA73 /* Build configuration list for PBXProject "HelloSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8F305B1C244F5B0003CA73 /* Debug */,
+				8D8F305C1C244F5B0003CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D8F305D1C244F5B0003CA73 /* Build configuration list for PBXNativeTarget "HelloSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D8F305E1C244F5B0003CA73 /* Debug */,
+				8D8F305F1C244F5B0003CA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D8F30391C244F5B0003CA73 /* Project object */;
+}
